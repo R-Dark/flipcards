@@ -5,8 +5,8 @@ const models = require('./models')
 app.use( express.static('public'))
 app.use(bodyParser.json())
 
-const mainRoutes = require("./routes/mainRoutes")
-app.use(mainRoutes)
+const usersRoutes = require("./routes/users")
+app.use(usersRoutes)
 
 app.listen(3000, function(req, res){
   console.log("Robots are listening!");
