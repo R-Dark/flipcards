@@ -16,6 +16,15 @@ app.use(session(sess))
 const usersRoutes = require("./routes/users")
 app.use(usersRoutes)
 
+const decksRoutes = require("./routes/decks")
+app.use(decksRoutes)
+
+const cardsRoutes = require("./routes/cards")
+app.use(cardsRoutes)
+
+const loginRoutes = require("./routes/login")
+app.use(loginRoutes)
+
 app.listen(3000, function(req, res){
   console.log("Robots are listening!");
 })

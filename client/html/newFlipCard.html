@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./users.html">Users</a>
+        <a href="./deckDetail.html">Your Decks</a>
+        <a href="./newFlipCard.html">Create Flip Card</a>
+        <a href="./register.html">Register</a>
+        <a href="#">Logged in as placeholder</a>
+        <a href="/logout">Sign-Out</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div id="usersList">
+
+        <div class="">
+          <label for="question">Question</label>
+          <input type="text" name="cardQuestion" id="cardQuestion" value="">
+        </div>
+        <div class="">
+          <label for="answe">Answer</label>
+          <textarea type="textbox" name="answerQuestion" id="answerQuestion" value=""></textarea>
+        </div>
+        <button type="submit" name="newUserButton" id="newUserButton">Create card!</button>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="../javascript/newFlipCard.js"></script>
+  </body>
+</html>

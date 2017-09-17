@@ -3,7 +3,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 header nav a {
   color: white;
   text-decoration: none;
@@ -44,4 +47,8 @@ article {
   background-color: rgb(212, 214, 214);
   margin-top: 10px;
   padding-left: 20px;
+}
+
+.container {
+  padding-top: 70px;
 }

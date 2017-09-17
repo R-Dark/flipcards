@@ -6,7 +6,7 @@ module.exports = {
       'flipcards',
       'deckid', {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        allowNull: true,
         references: {
           model: "decks",
           key: "id"

@@ -1,8 +1,5 @@
 let usersBtn = document.querySelector('#usersBtn')
 
-
-
-
 function loadFlipUsers() {
   fetch("http://localhost:3000/users")
     .then(function(response) {
@@ -21,6 +18,6 @@ function loadFlipUsers() {
     })
 }
 
-usersBtn.addEventListener('click', function(){
+usersBtn.addEventListener('click', function() {
   loadFlipUsers()
 })
